@@ -38,7 +38,6 @@ function App() {
     getNotes()
   }, [])
 
-  // DONE !!!!!!!!!!!!!
   const deleteNote = async (entry) => {
     // Code for DELETE here
     try {
@@ -58,7 +57,6 @@ function App() {
     }
   }
 
-  // DONE!!!!!!!!!!!
   const deleteAllNotes = async () => {
     // Code for DELETE all notes here
     try {
